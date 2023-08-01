@@ -6,14 +6,22 @@
 }
 
 body{
+    margin: 1em 6em;
     background-color: #00030C;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 
-.principal{
+.principal {
     background-image: url("../images/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
+    margin: 0 6em;
+}
+
+.container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -25,25 +33,115 @@ body{
     font-weight: 700;
 }
 
-.principal__assinatura{
+.principal__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.principal__botao{
     display: block;
     background-color: #167BF7;
     border-radius: 5px;
-    border: none;
     padding: 1em;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
     color: #FFFFFF;
+    margin-bottom: 1em;
 }
 
-.principal__assinatura__unique{
-    background-color: #00030C;
+.principal__secundario{
+    background-color: transparent;
     border: 1px solid #FFFFFF;
 }
 
-.principal__container__aviso{
-    font-family: 'Inter', sans-serif;
+.principal__aviso{
     font-size: 12px;
     font-weight: 400;
     color: #C0C0C0;
+}
+
+.plataforma{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.plataforma__imagem{
+    width: 80%;
+}
+
+.plataforma__descricao{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.plataforma__descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 0.1em;
+}
+
+.plataforma__descricao__texto{
+    color: #C0C0C0;
+}
+
+.telas{
+
+}
+
+.telas__imagem{
+
+}
+
+.telas__descricao{
+
+}
+
+.telas__descricao_aviso{
+
+}
+
+.telas__descricao_botao{
+
+}
+
+.baixar{
+
+}
+
+.baixar__imagem{
+
+}
+
+.baixar__descricao{
+
+}
+
+.baixar__descricao_titulo{
+
+}
+
+.baixar__descricao_texto{
+
+}
+
+.dispositivos{
+    
+}
+
+.dispositivos__titulo{
+
+}
+
+.dispositivos__imagens{
+
+}
+
+.dispositivos__imagens_tv{
+
+}
+
+.dispositivos__imagens_computador{
+
+}
+
+.dispositivos__imagens_celular{
+
 }
